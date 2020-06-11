@@ -1,0 +1,73 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family: sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+.img1, .img2, .img3, .img4{
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.img1{
+	background-image: url('../images/start.jpg');
+	min-height: 100%;
+}
+.img2{
+	background-image: url('../images/1.jpg'), url('../images/2.jpg'), linear-gradient(#EA251E, #B8241F, #D1433E, #F98881);
+	background-size: contain;
+	background-position: left, right;
+	/*background-color: ;*/
+	min-height: 100%;
+}
+.img3{
+	background-image: url('../images/cl1.jpg'),url('../images/cl2.jpg'), url('../images/cl3.jpg');
+	background-size: contain;
+	background-position: left, center, right;
+	min-height: 100%;
+}
+.img4{
+	background-image: url('../images/thank.jpg'), url('../images/you.jpg'), url('../images/last.jpg');
+	background-size: contain;
+	background-position: left, center, right;
+	min-height:100%;
+}
+.text, .text1, .text2{
+	color: white;
+	font-size: 27px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	/*height: 100%;*/
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.text1{
+	top: 80%;
+}
+.text2{
+	top: 60%;
+}
+.border{
+	background-color: black;
+	padding: 2%;
+}
+/*.border1, .border2{
+	margin: 15%;
+}
+.border2{
+	margin-right: 10%;
+}*/
+section{
+	text-align: center;
+	padding: 2% 10% 2% 10%;
+	background-color: grey;
+	color: white;
+}
